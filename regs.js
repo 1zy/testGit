@@ -22,6 +22,7 @@ var testSpaces = [
     '这件蛋糕只卖 １０００ 元。',
     '推荐你阅读《Hackers＆Painters：Big Ideas from the Computer Age》,非常的有趣。'
 ]
+
 charCheck(testSpaces.join(''))
 function charCheck(str){
     //特殊字符的正则
